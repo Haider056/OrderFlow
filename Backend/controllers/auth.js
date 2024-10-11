@@ -3,9 +3,9 @@ const User = require('../models/userModel');
 
 // Initialize OAuth2 client
 const oauth2Client = new google.auth.OAuth2(
-  process.env.CLIENT_ID || '533418510063-abrdsilnl3avkblprvan2hc12cd0bmae.apps.googleusercontent.com',
-  process.env.CLIENT_SECRET || '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',
-  process.env.REDIRECT_URI || 'https://darazdeliverytracker.netlify.app/oauth2callback'
+  process.env.CLIENT_ID,
+  process.env.CLIENT_SECRET,
+  process.env.REDIRECT_URI 
 );
 
 

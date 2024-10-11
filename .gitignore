@@ -11,3 +11,5 @@ node_modules/
 
 # Ignore global .env
 .env
+
+Backend/.env
